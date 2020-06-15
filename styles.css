@@ -1,0 +1,16 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 1em;
+}
+
+p {
+    margin-left: 2px;
+}
+
+.move-container {
+    padding-right: 69px;
+}
+
+.add-move-button {
+    margin-top: 10px;
+}

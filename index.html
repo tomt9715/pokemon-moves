@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pok&eacutemon Names</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <script src="index.js"></script> 
+    </head>
+    <body>
+
+        <div>
+            <p>Pok&eacutemon Name:</p>
+            <input type="text" id="pokemon-names" size="30">
+        </div>
+
+        <div>
+            <table>
+                <tbody id="tbody">
+                    <tr>
+                        <td>
+                            <p>Moves:</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="move-container" type="text" id="move-name" placeholder="Enter move here">
+                        </td>
+                        <td>
+                            <input class="button-container" type="button" id="remove-btn" value="Remove Move" onclick="removeRow()">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <div>
+            <input type="button" class="add-move-button" id="add-move-button" value="Add Move" onclick="addRow()">
+        </div>
+
+        <script src="index.js"></script> 
+    </body>
+</html>
